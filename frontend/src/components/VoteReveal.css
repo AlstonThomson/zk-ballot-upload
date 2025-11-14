@@ -1,0 +1,150 @@
+.vote-reveal-section {
+  margin-top: 30px;
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea22 0%, #764ba222 100%);
+  border-radius: 20px;
+}
+
+.reveal-card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.reveal-card h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.reveal-card .subtitle {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.saved-commitments {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.saved-commitments h4 {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.commitment-card {
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.commitment-card:last-child {
+  margin-bottom: 0;
+}
+
+.commitment-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.commitment-details strong {
+  color: #333;
+  font-size: 14px;
+}
+
+.choice-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  background: #e8f5e9;
+  color: #388e3c;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.load-button {
+  background: #667eea;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.reveal-card .form-group {
+  margin-bottom: 20px;
+}
+
+.reveal-card .form-group label {
+  display: block;
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.reveal-card .form-group input,
+.reveal-card .form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.reveal-card .form-group input:focus,
+.reveal-card .form-group select:focus {
+  border-color: #667eea;
+}
+
+.reveal-card .help-text {
+  font-size: 12px;
+  color: #999;
+  margin-top: 4px;
+}
+
+.reveal-card .message {
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.reveal-card .message.error {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.reveal-card .message.success {
+  background: #e8f5e9;
+  color: #388e3c;
+}
+
+.reveal-card .submit-button {
+  width: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.reveal-card .submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
